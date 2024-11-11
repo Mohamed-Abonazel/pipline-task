@@ -11,7 +11,7 @@ pipeline {
                 script {
                     // Assuming the 'myscript.sh' script is in the root of the repository
                      sh 'chmod +x myscript.sh'  // Make the script executable (if not already)
-                     sh './hello.sh'          // Run the  myscript.sh
+                     sh './myscript.sh'          // Run the  myscript.sh
                 }
             }
         }
